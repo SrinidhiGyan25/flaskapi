@@ -4,3 +4,4 @@ chromedriver-binary
 beautifulsoup4
 requests
 pandas
+gunicorn

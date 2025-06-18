@@ -2,9 +2,9 @@ services:
   - type: web
     name: job-scraper
     env: python
-    plan: starter # or higher for better resources
-    buildCommand: ./render-build.sh
-    startCommand: python app.py
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn --bind 0.0.0.0:$PORT app:app"
+    plan: free
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11
+        value: 3.11.0
