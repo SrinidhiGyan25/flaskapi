@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 import time
 import random
-
+import chromedriver_binary
 def setup_chrome_driver():
     """Setup Chrome driver for Render deployment"""
     options = Options()

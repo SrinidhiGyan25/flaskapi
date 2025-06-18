@@ -1,7 +1,6 @@
 flask
-undetected-chromedriver
 selenium
+chromedriver-binary
+beautifulsoup4
+requests
 pandas
-matplotlib
-seaborn
-folium
