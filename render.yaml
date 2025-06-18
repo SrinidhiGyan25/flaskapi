@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: job-scraper
+    env: python
+    plan: starter # or higher for better resources
+    buildCommand: ./render-build.sh
+    startCommand: python app.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
