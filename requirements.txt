@@ -6,3 +6,5 @@ requests
 pandas
 gunicorn
 matplotlib
+seaborn
+numpy
